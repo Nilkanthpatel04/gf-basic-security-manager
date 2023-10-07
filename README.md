@@ -14,7 +14,6 @@
 ## Start locator02
 
 `gfsh>connect --locator=LOCATOR_HOST01[10334] --user=gemfire --password=changeme
-
 gfsh>start locator --name=pocLocator2 --locators=LOCATOR_HOST01[10334],LOCATOR_HOST02[10334],LOCATOR_HOST03[10334] --initial-heap=32g --max-heap=32g --J=-Dgemfire.securitymanager=com.vmware.gemfire.BasicSecurityManager --classpath=/gemfire/gemfire-poc/vmware-gemfire-10.0.0/gf-basic-security-manager-1.0.jar --properties-file=/gemfire/gemfire-poc/vmware-gemfire-10.0.0/gemfire.properties`
 
 ## Start locator03
