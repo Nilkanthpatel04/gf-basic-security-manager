@@ -5,6 +5,7 @@
 
 ## gemfire.properties
    `security-manager=com.vmware.gemfire.BasicSecurityManager`
+   
    `security-peer-auth-init=com.vmware.gemfire.UserPasswordAuthInit`
 
 ## Start locator01
